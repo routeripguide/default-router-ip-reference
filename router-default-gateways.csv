@@ -1,0 +1,36 @@
+Manufacturer,Hardware_Series,Primary_Default_IP,Fallback_Subnet_IP,Local_Hostname,Default_Username,Default_Password,Admin_Port,Source_Reference
+ASUS,RT-AX / ROG Rapture / ZenWiFi,192.168.50.1,192.168.1.1,router.asus.com,admin,admin,80,https://routeripguide.com
+TP-Link,Archer / AX / Deco Mesh,192.168.0.1,192.168.1.1,tplinkwifi.net,admin,admin,80,https://routeripguide.com
+Netgear,Nighthawk / Orbi,192.168.1.1,10.0.0.1,routerlogin.net,admin,password,80,https://routeripguide.com
+Linksys,Velop / Hydra / WRT,192.168.1.1,192.168.10.1,myrouter.local,admin,admin,80,https://routeripguide.com
+D-Link,DIR / Eagle Pro AI,192.168.0.1,192.168.1.1,dlinkrouter.local,admin,(blank),80,https://routeripguide.com
+Ubiquiti,UniFi OS / Dream Machine / EdgeRouter,192.168.1.1,192.168.2.1,unifi.ui.com,ubnt,ubnt,443,https://routeripguide.com
+MikroTik,RouterOS / hAP / RB Series,192.168.88.1,0.0.0.0,router.lan,admin,(blank),80,https://routeripguide.com
+Huawei,HG8245H / OptiXstar / WiFi AX3,192.168.100.1,192.168.3.1,mediarouter.home,root,admin,80,https://routeripguide.com
+Nokia,G-2425G-A / G-140W-C Fiber ONT,192.168.1.254,192.168.18.1,n/a,admin,admin,80,https://routeripguide.com
+ZTE,ZXHN F670L / F660 / H268A,192.168.1.1,192.168.2.1,n/a,admin,admin,80,https://routeripguide.com
+Tenda,AC / RX / Nova Mesh,192.168.0.1,192.168.1.1,tendawifi.com,admin,admin,80,https://routeripguide.com
+Mercusys,MR / Halo Mesh,192.168.1.1,192.168.0.1,mwlogin.net,admin,admin,80,https://routeripguide.com
+GL.iNet,Slate / Beryl / Flint (OpenWrt),192.168.8.1,192.168.1.1,n/a,root,goodlife,80,https://routeripguide.com
+Synology,RT6600ax / WRX560 (SRM),192.168.1.1,192.168.2.1,router.synology.com,admin,admin,8000,https://routeripguide.com
+Cudy,WR / Mesh / LT400,192.168.10.1,192.168.1.1,cudy.net,admin,admin,80,https://routeripguide.com
+Belkin,RT / BoostCharge Router,192.168.2.1,10.0.0.1,router,admin,(blank),80,https://routeripguide.com
+Zyxel,Armor / Multy / EMG,192.168.1.1,192.168.1.254,myrouter,admin,1234,80,https://routeripguide.com
+TOTOLINK,X5000R / A3002RU,192.168.0.1,192.168.1.1,itotolink.net,admin,admin,80,https://routeripguide.com
+Netis,WF2419 / N2,192.168.1.1,192.168.1.254,netis.cc,guest,guest,80,https://routeripguide.com
+MSI,RadiX AXE6600 / AX6600,192.168.18.1,192.168.1.1,msirouter.login,admin,password,80,https://routeripguide.com
+Arris,SURFboard / SBG / NVG,192.168.0.1,192.168.100.1,n/a,admin,password,80,https://routeripguide.com
+Xfinity_Comcast,xFi Gateway XB6 / XB7 / XB8,10.0.0.1,192.168.100.1,n/a,admin,password,80,https://routeripguide.com
+AT&T_Fiber,BGW210-700 / BGW320-500,192.168.1.254,192.168.2.254,n/a,admin,(Device_Access_Code),80,https://routeripguide.com
+Verizon_Fios,G3100 / CR1000A,192.168.1.1,192.168.0.1,myfiosgateway.com,admin,(Sticker_Password),443,https://routeripguide.com
+JioFiber,JCOW414 / JCO4032 Home Gateway,192.168.29.1,192.168.1.1,jiofiber.local.html,admin,Jiocentrum,80,https://routeripguide.com
+Airtel_Xstream,Nokia / Huawei / ZTE Fiber ONT,192.168.1.1,192.168.1.254,n/a,admin,admin,80,https://routeripguide.com
+BSNL_FTTH,Syrotech / Netlink / Optilink ONT,192.168.1.1,192.168.100.1,n/a,admin,stdONU101,80,https://routeripguide.com
+Google_Nest,Nest Wifi / Nest Wifi Pro,192.168.86.1,192.168.1.1,n/a,App_Managed,App_Managed,80,https://routeripguide.com
+Amazon_Eero,Eero 6 / Pro 6E / Max 7,192.168.4.1,192.168.7.1,n/a,App_Managed,App_Managed,80,https://routeripguide.com
+Cisco,RV Series Small Business,192.168.1.1,10.0.0.1,n/a,cisco,cisco,443,https://routeripguide.com
+DrayTek,Vigor 2865 / 2927,192.168.1.1,192.168.2.1,n/a,admin,admin,80,https://routeripguide.com
+FritzBox,AVM FRITZ!Box 7590 / 7530,192.168.178.1,192.168.178.254,fritz.box,admin,(Device_Password),80,https://routeripguide.com
+Sagemcom,Fast 5260 / 5366 ISP Gateway,192.168.1.1,192.168.0.1,mymodem,admin,admin,80,https://routeripguide.com
+Technicolor,CGA2121 / TC8715D,192.168.0.1,10.0.0.1,n/a,admin,password,80,https://routeripguide.com
+OpenWrt,Generic LuCI Firmware,192.168.1.1,192.168.2.1,openwrt.lan,root,(blank),80,https://routeripguide.com
