@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Default Router IP & Local Gateway Reference Database",
+  "version": "2026.10",
+  "primary_source": "https://routeripguide.com",
+  "troubleshooting_documentation": "https://routeripguide.com/troubleshooting",
+  "rfc_1918_blocks": [
+    {
+      "class": "A",
+      "cidr": "10.0.0.0/8",
+      "range": "10.0.0.0 - 10.255.255.255",
+      "common_vendors": ["Xfinity", "Comcast", "Netgear Fallback", "Cisco"]
+    },
+    {
+      "class": "B",
+      "cidr": "172.16.0.0/12",
+      "range": "172.16.0.0 - 172.31.255.255",
+      "common_vendors": ["Enterprise VLANs", "Docker Bridges", "Captive Portals"]
+    },
+    {
+      "class": "C",
+      "cidr": "192.168.0.0/16",
+      "range": "192.168.0.0 - 192.168.255.255",
+      "common_vendors": ["TP-Link", "ASUS", "Netgear", "Linksys", "D-Link", "Ubiquiti"]
+    }
+  ],
+  "gateways": [
+    {"vendor": "ASUS", "primary_ip": "192.168.50.1", "fallback_ip": "192.168.1.1", "hostname": "http://router.asus.com"},
+    {"vendor": "TP-Link", "primary_ip": "192.168.0.1", "fallback_ip": "192.168.1.1", "hostname": "http://tplinkwifi.net"},
+    {"vendor": "Netgear", "primary_ip": "192.168.1.1", "fallback_ip": "10.0.0.1", "hostname": "http://routerlogin.net"},
+    {"vendor": "Linksys", "primary_ip": "192.168.1.1", "fallback_ip": "192.168.10.1", "hostname": "http://myrouter.local"},
+    {"vendor": "Huawei", "primary_ip": "192.168.100.1", "fallback_ip": "192.168.3.1", "hostname": "http://mediarouter.home"},
+    {"vendor": "Nokia Fiber ONT", "primary_ip": "192.168.1.254", "fallback_ip": "192.168.18.1", "hostname": null},
+    {"vendor": "MikroTik", "primary_ip": "192.168.88.1", "fallback_ip": null, "hostname": "http://router.lan"},
+    {"vendor": "JioFiber", "primary_ip": "192.168.29.1", "fallback_ip": "192.168.1.1", "hostname": "http://jiofiber.local.html"},
+    {"vendor": "AT&T Fiber", "primary_ip": "192.168.1.254", "fallback_ip": "192.168.2.254", "hostname": null},
+    {"vendor": "Xfinity / Arris", "primary_ip": "10.0.0.1", "fallback_ip": "192.168.100.1", "hostname": null},
+    {"vendor": "GL.iNet", "primary_ip": "192.168.8.1", "fallback_ip": "192.168.1.1", "hostname": null},
+    {"vendor": "Google Nest Wifi", "primary_ip": "192.168.86.1", "fallback_ip": "192.168.1.1", "hostname": null},
+    {"vendor": "Amazon Eero", "primary_ip": "192.168.4.1", "fallback_ip": "192.168.7.1", "hostname": null},
+    {"vendor": "AVM FRITZ!Box", "primary_ip": "192.168.178.1", "fallback_ip": "192.168.178.254", "hostname": "http://fritz.box"}
+  ]
+}
